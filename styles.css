@@ -1,0 +1,49 @@
+body {
+    font-family: 'Kode Mono', sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-image: url('./Assets/sylvia.jpeg');
+    background-size: cover;
+    display: inline-block; /* Added */
+    margin: 0 auto; /* Added */
+}
+
+.text-container {
+    margin: 0 auto; /* Added */
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-container > div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.nav-link {
+    font-size: 20px; 
+}
