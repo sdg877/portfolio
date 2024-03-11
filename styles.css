@@ -1,12 +1,16 @@
 body {
-    font-family: 'Kode Mono', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 20px;
+    background-image: url('./Assets/cloud.jpeg'); 
+    background-size: cover;
 }
 
 .container {
     max-width: 60%;
     margin: 0 auto; 
     text-align: center;
+    background-color: #c4d8e2;
+    border: 1px solid #00264d;
 }
 
 .profile-image {
@@ -16,12 +20,18 @@ body {
     border: 2px solid black;
     background-image: url('./Assets/sylvia.jpeg');
     background-size: cover;
-    display: inline-block; /* Added */
-    margin: 0 auto; /* Added */
+    display: inline-block; 
+    margin: 0 auto; 
 }
 
 .text-container {
-    margin: 0 auto; /* Added */
+    margin: 0px 25px 40px 25px; 
+    padding: 30px; 
+}
+
+.text-container-index {
+    margin: 0px 0px 0px 0px; 
+    padding: 30px; 
 }
 
 .project-container {
@@ -46,4 +56,65 @@ body {
 
 .nav-link {
     font-size: 20px; 
+    margin: 20px;
+}
+
+.nav {
+    font-size: 16px;
+}
+
+.flags {
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    font-size: 26px;
+}
+
+.contact {
+    font-size: 16px;
+    margin: aut0 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .text-container, .text-container-index {
+        padding: 20px;
+    }
+
+    .text-container {
+        margin: 0 20px; /* Adjust as needed */
+    }
+
+    .project-container > div {
+        width: 90%;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    .nav {
+        font-size: 14px;
+    }
+
+    .flags {
+        font-size: 22px;
+    }
+
+    .contact {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .h2 {
+        font-size: 14px;
+    }
 }
