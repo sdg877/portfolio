@@ -34,22 +34,6 @@ body {
     padding: 30px; 
 }
 
-.project-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.project-container > div {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.project-container img {
-    display: block;
-    margin: 0 auto;
-}
-
 .hidden {
     display: none;
 }
@@ -64,8 +48,8 @@ body {
 }
 
 .flags {
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
+    margin: 0; 
+    padding: 0; 
     font-size: 26px;
 }
 
@@ -73,6 +57,7 @@ body {
     font-size: 16px;
     margin: aut0 25px;
 }
+
 
 @media screen and (max-width: 768px) {
     .container {
@@ -89,7 +74,7 @@ body {
     }
 
     .text-container {
-        margin: 0 20px; /* Adjust as needed */
+        margin: 0 20px; 
     }
 
     .project-container > div {
@@ -112,9 +97,5 @@ body {
     .contact {
         font-size: 14px;
         margin: 10px;
-    }
-
-    .h2 {
-        font-size: 14px;
     }
 }
