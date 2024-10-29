@@ -110,6 +110,25 @@ h5 {
     font-size: 18px;
 }
 
+.project-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin: 0 -10px; 
+}
+
+.project-item {
+    width: calc(50% - 20px);
+    margin-bottom: 20px; 
+    box-sizing: border-box; 
+    text-align: center; 
+}
+
+.project-item img {
+    width: 100%; 
+    height: auto; 
+}
+
 
 @media screen and (max-width: 768px) {
     .container {
@@ -153,5 +172,9 @@ h5 {
 
     .nav-button {
         padding: 10px 20px; 
+    }
+
+    .project-item {
+        width: 90%; 
     }
 }
